@@ -381,7 +381,7 @@ fieldset {
 }
 .button:hover {
   color: #337ab7;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 45px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 30px 5px -1px rgba(0, 0, 0, 0.2);
 }
 .button:active::before, .button:focus::before {
   -webkit-transition: opacity 0.28s ease 0.364s, -webkit-transform 1.12s ease;
@@ -398,4 +398,12 @@ fieldset {
 img.center {
     display: block;
     margin: 0;
+}
+.div_alignment{
+    display:block;
+    margin:0;
+}
+.centre_align{
+    float:left;
+    margin:45px;
 }
